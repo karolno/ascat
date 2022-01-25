@@ -1563,7 +1563,7 @@ ascat.plotSunrise<-function(d, psi_opt1, rho_opt1, minim=T){
   
   
   if(psi_opt1>0 && rho_opt1>0){
-    points((psi_opt1-ploidy_min)/(ploidy_max-1),((rho_opt1-purity_min)/(purity_max-purity_min)*(1/purity_max),col="green",pch=4, cex = 2)
+    points((psi_opt1-ploidy_min)/(ploidy_max-1),((rho_opt1-purity_min)/(purity_max-purity_min))*(1/purity_max),col="green",pch=4, cex = 2)
   }
 }
 
